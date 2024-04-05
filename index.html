@@ -24,18 +24,28 @@ NAVBAR
 	<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
 	</button>
-	<div class="navbar-collapse collapse" id="navbarColor02" style="">
+	<div class="navbar-collapse collapse" id="navbarColor02">
 		<ul class="navbar-nav mr-auto d-flex align-items-center">
+			<style>
+				.nav-link:hover {
+					/* 鼠标悬停时添加下划线 */
+					text-decoration: underline;
+					/* 可以更改文字颜色 */
+					color: #007BFF; /* 示例使用蓝色 */
+					font-weight: bold;
+				}
+			</style>
+
 			<li class="nav-item">
-			<a class="nav-link" href="./index.html">Intro <span class="sr-only">(current)</span></a>
+			<a class="nav-link" href="./index.html">首页<span class="sr-only">(current)</span></a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="./article.html">Culture</a>
+			<a class="nav-link" href="./article.html">优势</a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="./article.html">Tech</a>
+			<a class="nav-link" href="./article.html">课程介绍</a>
 			</li>
-			<li class="nav-item">
+			<!-- <li class="nav-item">
 			<a class="nav-link" href="./article.html">Politics</a>
 			</li>
 			<li class="nav-item">
@@ -48,12 +58,18 @@ NAVBAR
 			<a class="nav-link" href="./about.html">About</a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="./docs.html">Template <span class="badge badge-secondary">docs</span></a>
+			<a class="nav-link" href="./docs.html">Template <span class="badge badge-secondary">docs</span></a> -->
 			</li>
 		</ul>
 		<ul class="navbar-nav ml-auto d-flex align-items-center">
-			<li class="nav-item highlight">
+			<!-- <li class="nav-item highlight">
 			<a class="nav-link" href="https://www.wowthemes.net/mundana-free-html-bootstrap-template/">Get this Theme</a>
+			</li> -->
+			<li class="nav-item highlight">
+				<a class="nav-link" href="#">登录</a>
+			</li>
+			<li class="nav-item highlight">
+				<a class="nav-link" href="#">注册</a>
 			</li>
 		</ul>
 	</div>
