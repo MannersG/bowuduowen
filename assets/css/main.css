@@ -3760,6 +3760,11 @@ input[type="button"].btn-block {
     color: rgba(0, 0, 0, 0.7); }
   .navbar-light .navbar-nav .nav-link.disabled {
     color: rgba(0, 0, 0, 0.3); }
+  .nav-link:hover {
+    /* 鼠标悬停时添加下划线 */
+    text-decoration: underline;
+    font-weight: bold;
+  }
 
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
